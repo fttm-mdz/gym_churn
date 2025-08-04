@@ -1,0 +1,15 @@
+En esta investigación construimos modelos que nos ayudaron a predecir la cancelación de clientes.
+
+Los datos se dividieron en conjuntos de entrenamiento y validación con una proporción del 80% y 20%. Se probaron dos modelos de clasificación; regresión lógica y bosque aleatorio. El bosque aleatorio presentó un mejor rendimiento, alcanzando un 94% de precisión y un puntaje F1 de 0.874 superando la regresión logística.
+
+Se realizó un análisis de clústeres para segmentar a los usuarios según sus características, excluyendo la variable de cancelación. Usando K-means con cinco clústeres, se identificaron patrones relevantes:
+
+Los clústeres 1 y 0 muestran las tasas más altas de cancelación (59.3% y 44.8%), asociadas a contratos cortos, baja asistencia y altos cargos extras.
+
+El clúster 2 tiene una cancelación moderada (26.7%).
+
+Los clústeres 3 y 4 presentan baja cancelación (7.2% y 2.6%), con usuarios más comprometidos y contratos largos.
+
+RECOMENDACIONES-
+
+Se recomienda enfocar acciones de retención en los clústeres de alto riesgo y mantener estrategias que refuercen la fidelidad en los grupos estables. El modelo de bosque aleatorio es útil para detectar y actuar sobre posibles cancelaciones.
